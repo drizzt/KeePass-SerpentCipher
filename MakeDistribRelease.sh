@@ -10,7 +10,7 @@ cp -r ../KeePass-SerpentCipher/Properties ../KeePass-SerpentCipher/Crypto $foler
 
 mono KeePass.exe --plgx-create $foler
 rm SerpentCipher.dll
-rm -rf %foler%
+rm -rf $foler
 
 zip SerpentCipher-$v.zip SerpentCipher.plgx License.txt Readme.txt
 
