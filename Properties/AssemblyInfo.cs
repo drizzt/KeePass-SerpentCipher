@@ -1,6 +1,6 @@
 ﻿/*
   Serpent Cipher for KeePass Password Safe
-  Copyright (C) 2015 Timothy Redaelli <timothy.redaelli@gmail.com
+  Copyright (C) 2015 Timothy Redaelli <timothy.redaelli@gmail.com>
 
   based on TwofishCipher by SEG Tech <me@gogogadgetscott.info>
 
