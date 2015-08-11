@@ -6,11 +6,11 @@ Copyright (C) 2009-2010 SEG Tech <me@gogogadgetscott.info>
 
 PREFACE
 
-Enables KeePass to encrypt databases using the Twofish algorithm.
+Enables KeePass to encrypt databases using the Serpent algorithm.
 
 REQUIREMENTS
 
-This plugin requires KeePass 2.0x.
+This plugin requires KeePass 2.09 and higher.
 
 INSTALLATION
 
@@ -20,5 +20,6 @@ and KeePass should automatically recognize, compile and load the plugin.
 CREDITS
 
 Many thanks to Dominik Reichl for creating KeePass Password Safe, without which,
-this plugin would not exist. Thanks also goes to Shaun Wilde for C# 
-implementation of the Twofish cipher as posted on The Code Project.
+this plugin would not exist. Thanks also goes to DotNetCrypt team for C#
+implementation of cryptography algorithms not included in the .NET framework
+(in this plugin I only use the Serpent implementation).
